@@ -12,5 +12,5 @@ This Smart Travel Recommendation Application helps traveler visiting a city to p
 
 ### Links
 
-[Travlr Website - http://semantic-travlr.herokuapp.com](http://semantic-travlr.herokuapp.com/)
-[SPARQL Endpoint - https://fuseki.herokuapp.com](https://fuseki.herokuapp.com/)
+- [Travlr Website - http://semantic-travlr.herokuapp.com](http://semantic-travlr.herokuapp.com/)
+- [SPARQL Endpoint - https://fuseki.herokuapp.com](https://fuseki.herokuapp.com/)
