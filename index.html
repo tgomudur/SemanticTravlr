@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="description" content="Creative One Page Parallax Template">
+	<meta name="keywords" content="Creative, Onepage, Parallax, HTML5, Bootstrap, Popular, custom, personal, portfolio" /> 
+	<meta name="author" content=""> 
+	<title>Smart Travel Recomendation Application</title> 
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/prettyPhoto.css" rel="stylesheet"> 
+	<link href="css/font-awesome.min.css" rel="stylesheet"> 
+	<link href="css/animate.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet"> 
+		<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> 
+		<script src="js/respond.min.js"></script> <![endif]--> 
+		<link rel="shortcut icon" href="images/ico/favicon.png"> 
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png"> 
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png"> 
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png"> 
+		<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+		<script src="js/mainfile.js"></script>
+	</head><!--/head-->
+	<body>
+		<div class="preloader">
+			<div class="preloder-wrap">
+				<div class="preloder-inner"> 
+					<div class="ball"></div> 
+					<div class="ball"></div> 
+					<div class="ball"></div> 
+					<div class="ball"></div> 
+					<div class="ball"></div> 
+					<div class="ball"></div> 
+					<div class="ball"></div>
+				</div>
+			</div>
+		</div><!--/.preloader-->
+		<header id="navigation"> 
+			<div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
+				<div class="container"> 
+					<div class="navbar-header"> 
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+							<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+						</button> 
+						<a class="navbar-brand" href="index.html"><h1><img src = "images/logo.png" style = "height:50px; width: 50px" /></h1></a> 
+					</div> 
+					<div class="collapse navbar-collapse"> 
+						<ul class="nav navbar-nav navbar-right"> 
+							<li class="scroll active"><a href="#navigation">Home</a></li> 
+							<li class="scroll"><a href="#about-us">Get Started</a></li> 
+							<li class="scroll"><a href="#our-team">Our Team</a></li> 
+							<li class="scroll"><a href="#contact">Contact</a></li> 
+						</ul> 
+					</div> 
+				</div> 
+			</div><!--/navbar--> 
+		</header> <!--/#navigation--> 
+		
+		<section id="home">
+			<div class="home-pattern"></div>
+			<div id="main-carousel" class="carousel slide" data-ride="carousel"> 
+				<ol class="carousel-indicators">
+					<li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#main-carousel" data-slide-to="1"></li>
+					<li data-target="#main-carousel" data-slide-to="2"></li>
+				</ol><!--/.carousel-indicators--> 
+				<div class="carousel-inner">
+					<div class="item active" style="background-image: url(images/slider/slide3.jpg)"> 
+						<div class="carousel-caption"> 
+							<div> 
+								<h2 class="heading animated bounceInDown">Travlr</h2> 
+								
+								<p class="animated bounceInUp"> Smart Travel Recomendation Application</p> 
+								<a class="btn btn-default slider-btn animated fadeIn" href="#about-us">Get Started</a> 
+							</div> 
+						</div> 
+					</div>
+					<div class="item" style="background-image: url(images/slider/slide2.jpg)"> 
+						<div class="carousel-caption"> <div> 
+							<h2 class="heading animated bounceInDown">Making travelling easy!</h2> 
+							<p class="animated bounceInUp">Go wherever you want and we will make your internary.</p> <a class="btn btn-default slider-btn animated fadeIn" href="#about-us">Get Started</a> 
+						</div> 
+					</div> 
+				</div> 
+				<div class="item" style="background-image: url(images/slider/slide1.jpg)"> 
+					<div class="carousel-caption"> 
+						<div>
+							<h2 class="heading animated bounceInRight">Travel Safe!</h2> 
+							<p class="animated bounceInLeft">Your safety is important to us.</p> 
+							<a class="btn btn-default slider-btn animated bounceInUp" href="#about-us">Get Started</a> 
+						</div> 
+					</div> 
+				</div>
+			</div><!--/.carousel-inner-->
+
+			<a class="carousel-left member-carousel-control hidden-xs" href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="carousel-right member-carousel-control hidden-xs" href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+		</div> 
+
+	</section><!--/#home-->
+
+	<section id="about-us">
+		<div class="container">
+			<div class="text-center">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2 class="title-one">Why With Us?</h2>
+					<p>We provide integrated information about Hotels, Restaurants, Tourist places and Crime Statistics for the city you are planning to visit. <br> We make your next trip joyfull and worryfree!</p>
+				</div>
+			</div>
+
+			<div class="search-field">
+				<div class="row">
+					<div class = "col-sm-3">
+					</div>
+					<div class="col-md-12"> 
+						<div id="contact-form-section">
+							<div class="status alert alert-success" style="display: none"></div>
+							<form id="contact-form" class="contact" name="contact-form" method="" onsubmit=" return fire()">
+								<div class = "row">
+									<div class="form-group citydiv">
+										<input type="text" id = "cityname" name="name" class="form-control city-field" required="required" placeholder="City Name"/></div>
+									</div>
+									<div class = "well col-md-3 choice">
+										
+										<h4>Restaurants</h4>
+										<div class = "col-md-5"> 
+											<div class = "row">
+												<div class = "rest-rating" id = "restaurant-rating">
+													Restraunt Ratings:
+													<label class="radio"><input type="radio" name="optradio" id="rr1star" value = "1">1 Star</label>
+													<label class="radio"><input type="radio" name="optradio" id="rr2star" value = "2">2 Star</label>
+													<label class="radio"><input type="radio" name="optradio" id="rr3star" value = "3">3 Star</label>
+													<label class="radio"><input type="radio" name="optradio" id="rr4star" value = "4">4 Star</label>
+													<label class="radio"><input type="radio" name="optradio" id="rr5star" value = "5">5 Star</label>
+												</div>
+											</div>
+										</div>
+										<div class = "col-md-1"></div>
+										<div class = "col-md-5"> 
+											<div class = "row">
+												<div class="cuisines" id = "cuisine-type">
+													Cuisines: &nbsp; &nbsp; &nbsp;
+													<label class="checkbox"><input type="checkbox" id="c-amer" value="American">American</label>
+													<label class="checkbox"><input type="checkbox" id="c-asia" value="Asian">Asian</label>
+													<label class="checkbox"><input type="checkbox" id="c-fren" value="French">French</label>
+													<label class="checkbox"><input type="checkbox" id="c-engl" value="English">English</label>
+												</div>
+											</div>
+										</div>
+										<div class = "col-md-1"></div>
+									</div>
+									
+									<div class = "well col-md-3 choice">
+										<h4> Accommodation</h4>
+										<div class = "col-md-5"> 
+											<div class = "row">
+												<div class = "hot-rating" id = "hotel-rating">
+													<h6>Hotel Ratings:</h6>
+													<label class="radio"><input type="radio" name="optradio1" id="hr1star" value = "1">1 Star</label>
+													<label class="radio"><input type="radio" name="optradio1" id="hr2star" value = "2">2 Star</label>
+													<label class="radio"><input type="radio" name="optradio1" id="hr3star" value = "3">3 Star</label>
+													<label class="radio"><input type="radio" name="optradio1" id="hr4star" value = "4">4 Star</label>
+													<label class="radio"><input type="radio" name="optradio1" id="hr5star" value = "5">5 Star</label>
+												</div>
+											</div>
+										</div>
+										<div class = "col-md-2"></div>
+										<div class = "col-md-5"> 
+											<div class = "row">
+												<div class = "budget"  id = "hotel-budget">
+													<h6>Budget:  </h6>
+													<label class="radio"><input type="radio" name="optradio2" id="1dol" value = "1">$</label>
+													<label class="radio"><input type="radio" name="optradio2" id="2dol" value = "2">$$</label>
+													<label class="radio"><input type="radio" name="optradio2" id="3dol" value = "3">$$$</label>
+													<label class="radio"><input type="radio" name="optradio2" id="4dol" value = "4">$$$$</label>
+													<label class="radio"><input type="radio" name="optradio2" id="5dol" value = "5">$$$$$</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class = "well col-md-3 choice">
+										<h4> Nearby Attractions </h4>
+										<div class = "row">
+											<div class = "col-md-3">
+											</div>
+											<div class = "nearby col-md-7"  id = "radius">
+												Radius:
+												<label class="radio"><input type="radio" name="optradio3" id="10m" value = "10">10 miles</label>
+												<label class="radio"><input type="radio" name="optradio3" id="20m" value = "20">20 miles</label>
+												<label class="radio"><input type="radio" name="optradio3" id="50m" value = "50">50 miles</label>
+												<label class="radio"><input type="radio" name="optradio3" id="100m" value = "100">100 miles</label>
+											</div>
+											<div class = "col-md-2">
+											</div>
+										</div>
+										
+										
+										
+									</div>
+									
+									
+									<div class="form-group row">
+										<div class = "col-md-5">
+										</div>
+										<div class = "col-md-2">
+											
+											<button type="submit" class="btn btn-primary">Send</button>
+										</div>
+										<div class = "col-md-5">
+										</div>
+									</div>
+								</form> 
+							</div>
+						</div>
+						<div class = "col-sm-3">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#about-us-->
+	
+	<section id="results" class="parallax-section">
+		<div class="container">
+			<h2 class="title-one">Results</h2>
+			
+			<ul class="nav nav-pills">
+				<li role="presentation" class = "active" ><a href="#tab2" data-toggle="pill"><i class="fa fa-home" aria-hidden="true"></i> &nbsp; Accommodation</a></li>
+				<li role="presentation"><a href="#tab1" data-toggle="pill"><i class="fa fa-cutlery" aria-hidden="true"></i> &nbsp; Restaurants</a></li>
+				<li role="presentation"><a href="#tab3" data-toggle="pill"> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Nearby Attractions</a></li>
+				<li role="presentation"><a href="#tab4" data-toggle="pill"> <i class="fa fa-bell" aria-hidden="true"></i> &nbsp; Crime Stats</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane" id="tab1">
+					
+					<div class = "row"> 
+						<div class = "well col-sm-5 well2">
+							
+							<div>Name: <label class = "label2" id="r-name1"> </label>  <br>
+								Address: <label class = "label2" id="r-add1"></label>  <br>
+								Stars: <label class = "label2" id="r-str1"></label>  <br>
+								Cuisine: <label class = "label2" id="r-csn1"></label>  <br>
+							</div>
+						</div>
+						
+						<div class = "col-sm-1"> </div>
+						<div class = "well col-sm-5 well2">
+							
+							<div >Name: <label class = "label2" id="r-name2"></label>  <br>
+								Address: <label class = "label2" id="r-add2"></label>  <br>
+								Stars: <label class = "label2" id="r-str2"></label>  <br>
+								Cuisine: <label class = "label2" id="r-csn2"></label>  <br>
+							</div>
+						</div>
+					</div>
+					
+					<div class = "row"> 
+						<div class = "well col-sm-5 well2">
+							
+							<div >Name: <label class = "label2" id="r-name3"></label>  <br>
+								Address: <label class = "label2" id="r-add3"></label>  <br>
+								Stars: <label class = "label2" id="r-str3"></label>  <br>
+								Cuisine: <label class = "label2" id="r-csn3"></label>  <br>
+							</div>
+						</div>
+						
+						<div class = "col-sm-1"> </div>
+						<div class = "well col-sm-5 well2">
+							
+							<div >Name: <label class = "label2" id="r-name4"></label>  <br>
+								Address: <label class = "label2" id="r-add4"></label>  <br>
+								Stars: <label class = "label2" id="r-str4"></label>  <br>
+								Cuisine: <label class = "label2" id="r-csn4"></label>  <br>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="tab-pane active" id="tab2">
+					
+					<div class = "row"> 
+						<div class = "well col-sm-5 well2">
+							
+							<div >Name: <label class = "label2" id="h-name1"></label>  <br>
+								Budget: <label class = "label2" id="h-bgt1"></label>  <br>
+								Rating: <label class = "label2" id="h-rat1"></label>  <br>
+								<a class="button" target = "_blank" id="h-l1">Book Now! </a>
+							</div>
+						</div>
+						
+						<div class = "col-sm-1"> </div>
+						<div class = "well col-sm-5 well2">
+							
+							<div >Name: <label class = "label2" id="h-name2"></label>  <br>
+								Budget: <label class = "label2" id="h-bgt2"></label>  <br>
+								Rating: <label class = "label2" id="h-rat2"></label>  <br>
+								<a class="button" target = "_blank" id="h-l2">Book Now! </a>
+							</div>
+						</div>
+					</div>
+					
+					<div class = "row"> 
+						<div class = "well col-sm-5 well2">
+							
+							<div >Name: <label class = "label2" id="h-name3"></label>  <br>
+								Budget: <label class = "label2" id="h-bgt3"></label>  <br>
+								Rating: <label class = "label2" id="h-rat3"></label>  <br>
+								<a class="button" target = "_blank" id="h-l3" >Book Now! </a>
+							</div>
+						</div>
+						
+						<div class = "col-sm-1"> </div>
+						<div class = "well col-sm-5 well2">
+							
+							<div >Name: <label class = "label2" id="h-name4"></label>  <br>
+								Budget: <label class = "label2" id="h-bgt4"></label>  <br>
+								Rating: <label class = "label2" id="h-rat4"></label>  <br>
+								<a class="button" target = "_blank" id="h-l4" >Book Now! </a>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+
+				<div class="tab-pane" id="tab3" style = "visibility: hidden;">
+					<div class = "row"> 
+						<div class = "well col-sm-5 well2">
+							<div class = "col-md-3">
+								<img src = "images/att/1.jpeg" height = "100" width="100">
+							</div>
+							<div class = "col-md-9">
+								<p>Big Shot is the world's highest amusement ride in terms of overall elevation above ground level. The 160 feet (49 m) tower is built atop the 921 feet (281 m) high deck of the Stratosphere in Las Vegas, Nevada.</p>
+							</div>
+						</div>
+						
+						<div class = "col-sm-1"> </div>
+						<div class = "well col-sm-5 well2">
+							<div class = "col-md-3">
+								<img src = "images/att/2.jpeg" height = "100" width="100">
+							</div>
+							<div class = "col-md-9">
+								<p>The Welcome to Fabulous Las Vegas sign is a Las Vegas landmark funded in May 1959 and erected soon after by Western Neon. The sign was designed by Betty Willis at the request of Ted Rogich, a local salesman, who sold it to Clark County, Nevada.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class = "row"> 
+						<div class = "well col-sm-5 well2">
+							<div class = "col-md-3">
+								<img src = "images/att/3.jpeg" height = "100" width="100">
+							</div>
+							<div class = "col-md-9">
+								<p>The Shark Reef Aquarium at Mandalay Bay is a public aquarium located at and owned by the Mandalay Bay Resort and Casino in Las Vegas, Nevada. The facility is 95,000 sq ft (8,800 m2), and displays numerous different species of sharks, rays, fish, reptiles, and marine invertebrates. It also features a shark tunnel.</p>
+							</div>
+						</div>
+						
+						<div class = "col-sm-1"> </div>
+						<div class = "well col-sm-5 well2">	
+							<div class = "col-md-3">
+								<img src = "images/att/4.jpeg" height = "100" width="100">
+							</div>
+							<div class = "col-md-9">
+								<p>M&M's World is a retail store that specialises in M&M's candy and merchandise. The best known and first location is on the Las Vegas Strip; stores also opened in Orlando, Florida (2005), New York City (2006) and London (2011).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane" id="tab4">
+					<div class = "well col-sm-5 well2">	
+						<div >Murder: <label class = "label2" id="c-1"></label>  <br>
+							Rape: <label class = "label2" id="c-2"></label>  <br>
+							Robbery: <label class = "label2" id="c-3"></label>  <br>
+							Theft: <label class = "label2" id="c-4"></label>  <br>
+							Violent Crime: <label class = "label2" id="c-5"></label>  <br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#service-->
+
+	<section id="our-team">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h2 class="title-one">Meet The Team</h2>
+
+				</div>
+			</div>
+			<div id="team-carousel" class="carousel slide" data-interval="false">
+				<a class="member-left" href="#team-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				<a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				<div class="carousel-inner team-members">
+					<div class="row item active">
+						<div class="col-sm-6 col-md-3">
+							<div class="single-member">
+								<img src="images/our-team/Mem1.jpeg" alt="team member" />
+								<h4>Tharun Niranjan Gomudurai Pandian</h4>
+								<h5>CEO</h5>
+								<p>Software Engineering Graduate Student at ASU</p>
+								<div class="socials">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="single-member">
+								<img src="images/our-team/Mem2.jpeg" alt="team member" />
+								<h4>Nitesh Thali</h4>
+								<h5>Team Member</h5>
+								<p>Software Engineering Graduate Student at ASU</p>
+								<div class="socials">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="single-member">
+								<img src="images/our-team/Mem3.jpeg" alt="team member" />
+								<h4>Vishal Johri</h4>
+								<h5>Team Member</h5>
+								<p>Software Engineering Graduate Student at ASU</p>
+								<div class="socials">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="single-member">
+								<img src="images/our-team/Mem4.jpeg" alt="team member" height = "209"/>
+								<h4>Sumeet Jain</h4>
+								<h5>Team Member</h5>
+								<p>Software Engineering Graduate Student at ASU</p>
+								<div class="socials">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section><!--/#Our-Team-->
+
+
+
+
+	<section id="contact">
+		<div class="container">
+			<div class="row text-center clearfix">
+				<div class="col-sm-8 col-sm-offset-2">
+					<div class="contact-heading">
+						<h2 class="title-one">Contact With Us</h2>
+						<p>Get in touch with us to explore more!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contact-details">
+				<div class="pattern"></div>
+				<div class="row text-center clearfix">
+					<div class="col-sm-6">
+						<div class="contact-address clas1"><address><p><span>Travl</span>R</p><strong>Room # 346, Noble Library<br>ASU<br> Tempe, AZ 85281</strong><br></address>
+							<div class="social-icons">
+								<a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-dribbble"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6"> 
+						<div id="contact-form-section">
+							<div class="status alert alert-success" style="display: none"></div>
+							<form id="contact-form2" class="contact" name="contact-form" method="" action="">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control name-field" required="required" placeholder="Your Name"></div>
+									<div class="form-group">
+										<input type="email" name="email" class="form-control mail-field" required="required" placeholder="Your Email">
+									</div> 
+									<div class="form-group">
+										<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+									</div> 
+									<div class="form-group">
+										<button type="submit" class="btn btn-primary">Send</button>
+									</div>
+								</form> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</section> <!--/#contact--> 
+
+		<footer id="footer"> 
+			<div class="container"> 
+				<div class="text-center"> 
+					<p>Copyright &copy; 2016 - <a href="http://mostafiz.me/">TravlR</a> | All Rights Reserved</p> 
+				</div> 
+			</div> 
+		</footer> <!--/#footer--> 
+
+		<script type="text/javascript" src="js/jquery.js"></script> 
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script> 
+		<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+		<script type="text/javascript" src="js/jquery.parallax.js"></script> 
+		<script type="text/javascript" src="js/main.js"></script> 
+	</body>
+	</html>		
